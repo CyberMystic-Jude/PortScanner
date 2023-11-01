@@ -22,8 +22,11 @@ Installation:
 -To install this tool in terminal
 
 git clone https://github.com/CyberMystic-Jude/PortScanner
+
 cd PortScanner/
+
 chmod +x PortScanner.py 
+
 python PortScanner.py -u [URL or IP] -s [start_port] -e [end_port]
 
 
