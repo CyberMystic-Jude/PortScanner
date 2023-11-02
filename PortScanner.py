@@ -2,8 +2,7 @@ import argparse
 import socket
 from urllib.parse import urlparse
 
-print("                       ---Port Scanner---")
-print()
+print("                       ---Port Scanner---",end='\n')
 print("*** For more details and Tools visit our GitHub page 'CyberMystic-Jude' ***")
 
 def scan_ports(target_url, start_port, end_port):
